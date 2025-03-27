@@ -7,11 +7,11 @@ const Phonepe = () => {
     const [loading2, setLoading2] = useState(false);
 
     const data ={
-        name: 'Mantha Chakradhar',
+        name: 'Waleed',
         amount: 1,
-        number: '7675878468',
-        MUID: "SU2503231703041716164702" ,
-        transactionId: 'T'+Date.now(),
+        number: '7498608775',
+        MUID: "MUID" + Date.now(),
+        transactionId: 'T' + Date.now(),
     }
 
     const handlePayment = (e)=>{
