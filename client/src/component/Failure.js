@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'; 
 
 const Failure = () => {
-    const navigate = useNavigate()
+  
     return (
         <div className="container">
           <div className="row justify-content-center">
